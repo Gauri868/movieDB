@@ -1,0 +1,85 @@
+/* MovieApp.css */
+
+.movie-app {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .movie-buttons button {
+    padding: 10px;
+    margin: 10px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .movie-buttons button:hover {
+    background-color: #006F8E;
+  }
+  
+  .search-bar input {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+  }
+  
+  .search-bar button {
+    padding: 10px;
+    margin: 10px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .search-bar button:hover {
+    background-color: #006F8E;
+  }
+  
+  .movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .movie-item {
+    width: 200px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .movie-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .movie-details, .movie-cast {
+    margin: 20px;
+    text-align: left;
+  }
+  
+  .movie-cast ul {
+    list-style-type: none;
+  }
+  
+  .movie-cast li {
+    padding: 10px;
+    background-color: #f4f4f4;
+    margin: 5px 0;
+  }
+  
+  .search-results {
+    margin-top: 20px;
+  }
+  
+  .search-results img {
+    width: 100px;
+    height: 150px;
+    margin: 10px;
+  }
+  

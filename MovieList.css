@@ -1,0 +1,49 @@
+/* Movie List */
+.movie-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 images per row */
+    gap: 20px; /* Space between items */
+    padding: 20px; /* Padding around the grid */
+    margin-top: 20px; /* Top margin */
+    background-color: #1e1e1e;
+  }
+  
+  /* Movie Card */
+  .movie-card {
+    background-color: #2e2e2e;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column; /* Stack the image and text */
+    justify-content: flex-start; /* Align the image at the top */
+    padding: 10px; /* Padding inside each card */
+  }
+  
+  /* Movie Poster */
+  .movie-poster {
+    width: 100%; /* Make the image width 100% of the parent container */
+    height: 200px; /* Set a fixed height for the image */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+    border-bottom: 2px solid #ff4500; /* Add a border at the bottom of the image */
+  }
+  
+  /* Movie Details */
+  .movie-details {
+    padding: 10px;
+  }
+  
+  .movie-details h3 {
+    font-size: 14px; /* Reduced font size */
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .movie-details p {
+    font-size: 12px; /* Reduced font size */
+    color: #ccc;
+  }
+  
